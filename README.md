@@ -1,4 +1,4 @@
-GeoContract is a crowdsourcing app for service providers and consumers.  The app allows consumers to identify service providers' realtime geolocation on a map with a defined radius relative to the consumers geolocation, and connect with the service providers via cloud messenging to put in service request(s).
+GeoContract is a crowdsourcing app for service providers and consumers.  The app allows consumers to identify service providers' realtime geolocation on a map with a defined radius relative to the consumer's geolocation, and connect with the service providers via cloud messenging to put in service request(s).
 
 
 

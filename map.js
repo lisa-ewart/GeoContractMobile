@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     marginVertical: 20,
-    height: 150,
+    height: 100,
     backgroundColor: 'grey',
 
   },
@@ -43,7 +43,11 @@ const styles = StyleSheet.create({
   },
   heading:{
 
-  }
+  },
+  searchmenu:{
+    textAlign:'center',
+    color:'white',
+  },
 });
 
 
@@ -115,6 +119,7 @@ export default class MapRender extends Component {
         {/* Button */}
         <View style={styles.buttonContainer}>
         <ScrollView>
+         <Text style={styles.searchmenu}>scroll to search</Text>
           <TouchableOpacity
             style={styles.button}
 

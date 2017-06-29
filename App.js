@@ -5,17 +5,25 @@ import MapRender from './map';
 
 
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '90%',
+    width: '100%',
     marginTop: '5%',
   },
   mapstyle: {
     width:'90%',
+  },
+  nav: {
+    backgroundColor: '#cbe6a3',
+    fontSize: 20,
+    color: 'white',
+    width: '100%',
+    textAlign:'center',
   },
 
 });
@@ -28,12 +36,11 @@ export default class App extends React.Component {
     return (
 
 
-
-
       <View style={styles.container}>
        
-        <Text>GeoContract</Text>
+        <Text style={styles.nav}>GeoContract</Text>
         <MapRender style={styles.container} />
+
         
       </View>
     );

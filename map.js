@@ -3,6 +3,7 @@ import {
   StyleSheet,         // CSS-like styles
   Text,               // Renders text
   TouchableOpacity,   // Pressable container
+  TouchableHighlight,
   View,
   button,              // Container component
   ScrollView,

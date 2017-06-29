@@ -28,7 +28,7 @@ export default class Callout extends Component {
 
             <TouchableOpacity
             style={styles.button}>
-            <Text>{'Message me'}</Text>
+            <Text style={styles.centerTxt}>{'Message me'}</Text>
           </TouchableOpacity>
             
           </View>
@@ -81,12 +81,12 @@ const styles = StyleSheet.create({
     margin: 2,
     width: 100,
   },
-  // Character name
+
   name: {
     fontSize: 16,
     marginBottom: 5,
   },
-  // Character image
+  // profile image
   image: {
     width: 120,
     height: 120,
@@ -94,6 +94,9 @@ const styles = StyleSheet.create({
   rating: {
     width: 120,
     height: 20,
+  },
+  centerTxt: {
+    textAlign: 'center',
   },
   license:{
     color:'green',

@@ -12,6 +12,7 @@ import MapView from 'react-native-maps';
 // Import data
 import { serviceProviders } from './data';
 import Callout from './Callout';
+import TouchableButton from './touchableBtn'
 
 
 // 
@@ -25,8 +26,8 @@ const styles = StyleSheet.create({
   },
   map: {
     ...StyleSheet.absoluteFillObject,
-    height: 450,
-    width: 425,
+    height: 470,
+    width: '100%',
   },
   buttonContainer: {
     marginVertical: 20,

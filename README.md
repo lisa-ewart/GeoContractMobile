@@ -1,3 +1,11 @@
+GeoContract is a crowdsourcing app for service providers and consumers.  The app allows consumers to identify service providers' realtime geolocation on a map with a defined radius relative to the consumers geolocation, and connect with the service providers via cloud messenging to put in service request(s).
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).

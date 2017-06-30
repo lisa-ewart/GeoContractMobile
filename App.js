@@ -2,7 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 //import Map from 'maps';
 import MapRender from './map';
-
+import SignIn from './js/components/signin';
+import {
+  StackNavigator,
+} from 'react-navigation';
 
 
 
@@ -37,10 +40,10 @@ export default class App extends React.Component {
 
 
       <View style={styles.container}>
-       
+        
         <Text style={styles.nav}>GeoContract</Text>
         <MapRender style={styles.container} />
-
+       
         
       </View>
     );

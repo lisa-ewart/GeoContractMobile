@@ -5,7 +5,6 @@ export const serviceProviders = [
      coordinate: [ 40.764466, -73.974488 ],
     
     rating: 'https://t3.ftcdn.net/jpg/01/19/98/98/240_F_119989873_eZQqBOvw9WJCLc5SiitR2fV25y4AgcaA.jpg',
-    
      serviceCode: 'R',
     license: 'NY8743',
     pincolor: 'green',

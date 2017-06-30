@@ -28,12 +28,12 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
     height: 470,
     width: '100%',
+    
   },
   buttonContainer: {
     marginVertical: 20,
     height: 100,
     backgroundColor: 'grey',
-
   },
   button: {
     alignItems: 'center',
@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
     textAlign:'center',
     color:'white',
   },
+  
 });
 
 
@@ -61,6 +62,8 @@ export default class MapRender extends Component {
     // Show only service providers based on button 
    
     services:'',
+    menuheading:'Choose Service',
+
   
   }
 
@@ -120,13 +123,15 @@ export default class MapRender extends Component {
         </MapView>
         {/* Button */}
         <View style={styles.buttonContainer}>
+        <Text style={styles.searchmenu}>{this.state.menuheading} {this.state.services}</Text>
         <ScrollView>
-         <Text style={styles.searchmenu}>scroll to search</Text>
+         
           <TouchableOpacity
             style={styles.button}
 
             onPress={() => this.setState({
-               services: 'E'
+               services: 'E',
+               menuheading: 'Available '
             })}
           >
             <Text>{'Electricians near me'}</Text>
@@ -135,7 +140,8 @@ export default class MapRender extends Component {
           <TouchableOpacity
             style={styles.button}
             onPress={() => this.setState({
-              services: 'P'
+              services: 'P',
+              menuheading: 'Available '
             })}
           >
             <Text>{'Plumbers near me'}</Text>
@@ -145,7 +151,8 @@ export default class MapRender extends Component {
            <TouchableOpacity
             style={styles.button}
             onPress={() => this.setState({
-              services: 'H'
+              services: 'H',
+              menuheading: 'Available '
             })}
           >
             <Text>{'HVAC near me'}</Text>
@@ -155,7 +162,8 @@ export default class MapRender extends Component {
             style={styles.button}
 
             onPress={() => this.setState({
-               services: 'R'
+               services: 'R',
+               menuheading: 'Available '
             })}
           >
             <Text>{'Realtors near me'}</Text>
@@ -164,7 +172,8 @@ export default class MapRender extends Component {
           <TouchableOpacity
             style={styles.button}
             onPress={() => this.setState({
-              services: 'M'
+              services: 'M',
+              menuheading: 'Available '
             })}
           >
             <Text>{'Movers near me'}</Text>
@@ -174,7 +183,8 @@ export default class MapRender extends Component {
            <TouchableOpacity
             style={styles.button}
             onPress={() => this.setState({
-              services: 'D'
+              services: 'D',
+              menuheading: 'Available '
             })}
           >
             <Text>{'Dog Walkers near me'}</Text>

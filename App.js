@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
 
 });
 
-
+// <Text style={styles.nav}>GeoContract</Text>
+//         <MapRender style={styles.container} />  
 
 export default class App extends React.Component {
   render() {
@@ -40,12 +41,14 @@ export default class App extends React.Component {
 
 
       <View style={styles.container}>
-        
-        <Text style={styles.nav}>GeoContract</Text>
-        <MapRender style={styles.container} />
-       
+        <SignIn />
         
       </View>
+
+       
+
+
+
     );
   }
 }

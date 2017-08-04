@@ -12,7 +12,7 @@ import MapView from 'react-native-maps';
 // Import data
 import { serviceProviders } from './data';
 import Callout from './Callout';
-import TouchableButton from './touchableBtn'
+import TouchableButton from './touchableBtn';
 
 
 // 

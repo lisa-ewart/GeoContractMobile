@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 //import Map from 'maps';
 import MapRender from './map';
 import SignIn from './js/components/signin';
@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: '100%',
     marginTop: '5%',
+    height: 900
   },
   mapstyle: {
     width:'90%',
@@ -33,20 +34,21 @@ const styles = StyleSheet.create({
 
 // <Text style={styles.nav}>GeoContract</Text>
 //         <MapRender style={styles.container} />  
+// <SignIn />  
 
 export default class App extends React.Component {
   render() {
 
     return (
 
-
+      
       <View style={styles.container}>
-        <SignIn />
-        
+         
+
+        <MapRender style={styles.container} />  
       </View>
-
-       
-
+      
+     
 
 
     );

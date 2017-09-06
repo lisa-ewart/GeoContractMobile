@@ -44,7 +44,7 @@ export default class App extends React.Component {
       
       <View style={styles.container}>
          
-
+        <SignIn />
         <MapRender style={styles.container} />  
       </View>
       
